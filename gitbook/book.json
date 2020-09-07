@@ -1,0 +1,24 @@
+{
+	"plugins": [
+		"-sharing",
+		"hide-published-with",
+		"mathjax",
+		"@ansanloms/uml",
+		"anchors",
+		"navigator",
+		"collapsible-chapters",
+		"hints"
+	],
+	"language": "ja",
+	"pluginsConfig": {
+		"uml": {
+			"format": "svg",
+			"charset": "utf8",
+			"config": "classic"
+		},
+		"mathjax": {
+			"forceSVG": true
+		}
+	}
+}
+
