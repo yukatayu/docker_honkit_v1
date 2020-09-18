@@ -31,7 +31,8 @@ RUN apt install -y git curl calibre && \
 	npm install -g gitbook-plugin-mathjax@1.1.2 && \
 	npm install -g gitbook-plugin-hide-published-with && \
 	npm install -g mathjax-node@1.3.0 && \
-	npm install -g gitbook-plugin-search-pro-fixed
+	npm install -g gitbook-plugin-search-pro-fixed && \
+	npm install -g gitbook-plugin-swagger
 	# plugin-mathjax@2.0.0 has been corrupted
 	# plugin-mathjax depends on mathjax@2.7.6
 RUN sed -ie 's/processExpression/toSpeech/g' /usr/local/lib/node_modules/gitbook-plugin-mathjax/node_modules/mathjax-node/lib/mj-single.js

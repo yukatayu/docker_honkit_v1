@@ -1,9 +1,11 @@
 {
+	"title": "Document",
 	"plugins": [
 		"-sharing",
 		"hide-published-with",
 		"mathjax",
 		"@ansanloms/uml",
+		"swagger",
 		"anchors",
 		"navigator",
 		"collapsible-chapters",
